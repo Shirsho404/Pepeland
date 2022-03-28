@@ -18,7 +18,7 @@ body{
     overflow: hidden;
     /* display: flex;
     flex-direction: row; */
-    top:0;
+    top:0%;
     position: sticky;
   }
 .container a{
@@ -68,20 +68,26 @@ body{
 }
 .explore{
   position: absolute;
-  left:50%;
+  left:47%;
+  padding: 15px;
   cursor: pointer;
   border: 0.5px solid #406a86;
   background-color: transparent; 
   text-align: center;
-  /* color: #fafafa; */
+   color: #df9d0f; 
   border-radius: 5px;
 }
-
+button.toggleButton{
+  cursor: pointer;
+   position: absolute;
+   margin-top: 10px;
+   border-radius: 48px; 
+}
 
 
 .footer1{
   display: flex;
-  color: #fafafa;
+  /* color: #fafafa; */
   margin-top: 50px;
   padding: 90px;
   background-color: #575555;
@@ -102,7 +108,7 @@ body{
 }
 .text1{
   margin-bottom: 15px;
-  color: #f8f8f8;
+  /* color: #f8f8f8; */
   font-size: 23px;
  
 }
@@ -114,14 +120,14 @@ color: #4b4a4a;
 .shirsho {
   margin-right: 3px;
   text-decoration: none;
-  color: #dde9f1;
+  /* color: #dde9f1; */
 }
 .simun{
 margin-right: 3px;
 text-decoration: none;
-color: #dde9f1;
+/* color: #dde9f1; */
 }
 .vivek{
   text-decoration: none;
-  color: #dde9f1;
+  /* color: #dde9f1; */
 }
