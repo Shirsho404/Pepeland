@@ -1,21 +1,25 @@
 body{
      background-color: #000000; 
-    
+     color: white;
      background-repeat: no-repeat;
      background-size: cover;
     background-position: center;
 }
 
-body.light-mode{
+.lightmode{
   background-color: white;
   color: #000000;
+  background-position: center;
+  background-size: cover;
 }
 
 .container {
     background-color: #3a3a3a;
     overflow: hidden;
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
+    top:0;
+    position: sticky;
   }
 .container a{
     cursor: pointer;
@@ -54,22 +58,22 @@ body.light-mode{
 
 .header{
   text-align: center;
-  color: #fafafa;
+  /* color: #fafafa; */
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 'Arial Narrow Bold', sans-serif;
 }
 #intro{
   text-align: center;
-  color: #fafafa;
+  /* color: #fafafa; */
   font-family: Arial, Helvetica, sans-serif;
 }
 .explore{
   position: absolute;
   left:50%;
   cursor: pointer;
-  border: 0.5px solid #dde9f1;
+  border: 0.5px solid #406a86;
   background-color: transparent; 
   text-align: center;
-  color: #fafafa;
+  /* color: #fafafa; */
   border-radius: 5px;
 }
 
