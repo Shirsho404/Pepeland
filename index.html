@@ -15,17 +15,64 @@
         <a class="items">Community</a>
         <div class="search">
             <form action="search.php" method="get">
-                <input type="text" name="search" maxlength="60" placeholder="Search..." required>
-                
+                <input type="text" name="search" maxlength="60" placeholder="Search..."  required>
             </form>
+    <!--code for toggling-->
+        <div class="toggle">
+            <button class="toggleButton"><img src="icons8-sun.svg" width="30"height="30"alt=""></button>
+        </div>
         </div>
     </div>
     
     <div class="banner"><img src="magazine_Pepe_edited.jpg" alt="" srcset="" id="ima" width="100%" height="10%"></div>
     <h1 class="header"><strong>Welcome to The Land of Pepe Currency</strong></h1>
-    <h3 id="intro">Pepeland is a Community run and technoly-driven Cryptocurrency  NFT Community which aims on decentralised systems </h3>
+    <h3 id="intro">Pepeland is a Community run and technoly-driven Cryptocurrency and NFT Community which aims on decentralised systems </h3>
     <button class="explore">Explore Now</button>
+    <br>
+    
 
 
+     <!--code for the footer-->
+
+    <div class="footer1">
+
+      
+       <div class="socialMedia">
+           <a href=""><img src="Facebook Post 940x788 px.png" width="115"height="110"alt=""></a>
+           <a href=""><img src="ig.png" width="105"height="100"alt=""></a>
+           <a href=""><img src="Facebook Post 940x788 px (1).png" width="110"height="105"alt=""></a>
+
+          
+       </div>
+       
+
+    </div>
+
+    <div class="footer2">
+       <div class="text1">
+        © The Prepcoin Project 2022
+       </div>
+       <div class="text2">
+           Presented by 
+       </div>
+       <div class="links">
+           <a class="shirsho"href="shirsho2402@gmail.com" >Shirsho Roy   </a>
+             <a class="simun" href=" simunsarangi0912@gmail.com" > Simun Sarangi </a> 
+              <a class="vivek" href="vivekjha3080">Vivek Jha</a></div>
+
+    </div>
+
+
+
+<script>
+    document.querySelector(".toggleButton").addEventListener("click",function toggleLightMode()
+        
+    {
+    document.body.classlist.toggle('light-mode');
+    
+    });
+    
+
+</script>
 </body>
 </html>
