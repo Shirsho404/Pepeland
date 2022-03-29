@@ -1,12 +1,17 @@
-body{
-     background-color: #000000; 
-     color: white;
-     background-repeat: no-repeat;
-     background-size: cover;
-    background-position: center;
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.lightmode{
+.lightmode {
   background-color: white;
   color: #000000;
   background-position: center;
@@ -14,78 +19,98 @@ body{
 }
 
 .container {
-    background-color: #3a3a3a;
-    overflow: hidden;
-    /* display: flex;
-    flex-direction: row; */
-    top:0%;
-    position: sticky;
-  }
-.container a{
-    cursor: pointer;
-    float: left;
-    color: #fafafa;
-    text-align: end;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 26px;
-
-  }
-  .container a:hover{
-      color: crimson;
-  }
-  .search{
-    float: right;
-  }
-
-.search input[type=text] {
-
-    
-    height: 26px;
-    font-size: 17px;
-    width: 200px;
-    margin-top: 8px; 
-    margin-bottom: 8px;
-    margin-right: 10px;
-    padding:8px 8px;
-    border-radius: 20px;
-    align-items: center;
+  background-color: #3a3a3a;
+  overflow: hidden;
+  /*display: flex;
+  flex-direction: row;*/
+  justify-content: space-between;
+  top: 0%;
+  position: sticky;
+  margin-bottom: 5px;
 }
-.image{
-  float:right;
-
+.container a {
+  cursor: pointer;
+  float: left;
+  color: #fafafa;
+  text-align: end;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 2px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+}
+.container a:hover {
+  color: crimson;
+}
+.search {
+  float: right;
+  margin-right: 20px;
 }
 
-.header{
+.search input[type="text"] {
+  height: 26px;
+  font-size: 17px;
+  color: rgb(248, 247, 246);
+  width: 200px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+  padding: 8px 8px;
+  border-radius: 0px;
+  align-items: center;
+  background: #575555;
+  text-align: right;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.image {
+  float: right;
+}
+
+.header {
   text-align: center;
   /* color: #fafafa; */
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 'Arial Narrow Bold', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
 }
-#intro{
+#intro {
   text-align: center;
   /* color: #fafafa; */
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
 }
-.explore{
+.explore {
   position: absolute;
-  left:47%;
+  left: 46%;
   padding: 15px;
   cursor: pointer;
   border: 0.5px solid #406a86;
-  background-color: transparent; 
+  background-color: transparent;
   text-align: center;
-   color: #df9d0f; 
+  color: #df9d0f;
   border-radius: 5px;
 }
-button.toggleButton{
-  cursor: pointer;
-   position: absolute;
-   margin-top: 10px;
-   border-radius: 48px; 
+.toggle {
+  float: right;
+  margin-right: 50px;
+  margin-top: 7px;
+  margin-bottom: 30px;
 }
 
+button.toggleButton {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 2px;
+  border-radius: 48px;
+}
 
-.footer1{
+.footer1 {
   display: flex;
   /* color: #fafafa; */
   margin-top: 50px;
@@ -95,39 +120,53 @@ button.toggleButton{
   justify-content: center;
 }
 
-
-
-
-.footer2{
+.footer2 {
   display: flex;
-  
+
   padding: 27px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.text1{
+.text1 {
   margin-bottom: 15px;
   /* color: #f8f8f8; */
   font-size: 23px;
- 
 }
-.text2{
-margin-bottom: 4px;
-color: #4b4a4a;
-
+.text2 {
+  margin-bottom: 4px;
+  color: #4b4a4a;
 }
 .shirsho {
   margin-right: 3px;
   text-decoration: none;
   /* color: #dde9f1; */
 }
-.simun{
-margin-right: 3px;
-text-decoration: none;
-/* color: #dde9f1; */
-}
-.vivek{
+.simun {
+  margin-right: 3px;
   text-decoration: none;
   /* color: #dde9f1; */
+}
+.vivek {
+  text-decoration: none;
+  /* color: #dde9f1; */
+}
+.logo {
+  cursor: pointer;
+  width: 3%;
+  float: left;
+  margin-top: 7px;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+.container.search button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: gray;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  height: 50px;
 }
