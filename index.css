@@ -163,12 +163,21 @@ button.toggleButton:hover{
   background-color: #575555;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
 }
+.socialMedia{
+display: flex;
+flex-direction: row;
+}
+.ig{
+  margin-top: 5px;
+}
+
 
 .footer2 {
   display: flex;
   flex-basis: auto;
-  padding: 27px;
+  padding: 24px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -186,6 +195,9 @@ button.toggleButton:hover{
   margin-right: 3px;
   text-decoration: none;
    color: #707579; 
+}
+.twitter{
+  margin-top: 200px;
 }
 .simun {
   margin-right: 3px;
