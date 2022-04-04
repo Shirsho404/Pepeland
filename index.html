@@ -10,26 +10,29 @@
 
 </head>
 <body>
-    
+    <!-- Nav Bar Text -->
     <div class="container">
         <img class="logo" src="pepe.png"> 
         <nav>
             <a class="items">Home</a>
             <a class="items">About</a>
+            <a class="items">Use Pepecoin</a>
             <a class="items">Learn</a>
             <a class="items">Community</a>
         </nav>
         
         <div class="search">
-            <form action="/action_page.php">
+            <!-- <form action="/action_page.php"> -->
+            <form>
               <input type="text" placeholder="Search.." name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
+              <!-- <button type="submit"><i class="fa fa-search"  height="50%" width="50%"></i></button> -->
+              <button type="submit"><img src="icons8-search (1).svg" alt="" srcset=""></button>
             </form>
         </div>
         
     <!--code for toggling-->
         <div class="toggle">
-            <button class="toggleButton" onclick="mydark()" type="submit"><img src="icons8-sun.svg" width="30"height="30"alt=""></button>
+            <button class="toggleButton" onclick="mydark()" type="submit"><img onclick="icon()" id="iconchng" src="icons8-do-not-disturb-ios-24.png" width="30"height="30"alt=""></button>
         </div>
         
     </div>
@@ -41,11 +44,19 @@
     <br>
     <button class="explore"><b>Explore Now</b></button>
     <br>
-    <br>
-    
-
-
-     <!--code for the footer-->
+    <br><br><br>
+    <!--Code for Body Box-->
+    <h2 class="Head1">Get Started</h2>
+    <br><br>
+    <div class="Body">
+        <h4 class="Body1">The decentralised currency Community which aims for Crypto revolution.</h4>
+        <div class="sec2"><img class="hello" src="hello.png" alt="" srcset="" height="60%" width="60%"></div>
+    </div>
+    <br><br>
+    <div class="Body2">
+        <h4></h4>
+    </div>
+    <!--code for the footer-->
 
     <div class="footer1">
 
@@ -77,14 +88,7 @@
 
 
 <script src="index.js"></script>
-<!-- <script>
-    document.querySelector(".toggleButton").addEventListener("click",function toggleLightMode()
-        
-    {
-    document.body.classlist.toggle('light-mode');
-    
-    });
-    
+
 
 </script> -->
 </body>
