@@ -1,15 +1,12 @@
 function mydark()
 {
   document.body.classList.toggle("lightmode");
-
+  document.footer.classList.toggle("flightmode")
 }
 function icon()
-{
-  if(document.getElementsById("iconchng").src=="icons8-do-not-disturb-ios-24.png")
-  {
-    document.getElementsById("iconchng").src="icons8-sun-50.png";
-  }
-  else{
-    document.getElementsById("iconchng").src="icons8-do-not-disturb-ios-24.png";
-  }
+{  var img1 = "icons8-do-not-disturb-ios-24.png",
+img2 = "icons8-sun-50.png";
+var imgElement = document.getElementById('iconchng');
+
+imgElement.src = (imgElement.src === img1)? img2 : img1;
 }
